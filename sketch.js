@@ -51,7 +51,7 @@ function Snowflake() {
   this.show = function () {
     push();
     noStroke();
-    fill(255, map(this.d, 0, 50, 255, 200));
+    fill(255, map(this.d, scale, size, 255, 200));
     translate(this.pos.x, this.pos.y);
     circle(0, 0, this.d);
     pop();
