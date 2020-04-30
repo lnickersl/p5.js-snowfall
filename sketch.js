@@ -33,7 +33,7 @@ function Snowflake() {
   this.d = scale * size / random(scale, size);
   this.velX = (windMultiplier * this.d) / size;
   this.velY = sqrt(this.d) / 2; //формула скорости, взял из головы
-  this.t = map(this.d, 1, size, bondStr, 0); //random(100);
+  this.t = map(this.d, scale, size, bondStr, 0); //random(100);
 
   this.update = function () {
     let wind = this.velX * map(noise(this.t + time), 0, 1, -1, 1);
