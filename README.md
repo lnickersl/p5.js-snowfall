@@ -1,10 +1,10 @@
 # p5.js-snowfall
 Snowfall animation with perlin noise wind effect
 
-## p5.js framework
-This project was made using [p5.js](https://p5js.org/)
+This project was made using [p5.js](https://p5js.org/) framework
 
 ### [Live demo](https://editor.p5js.org/N238635/present/NkJRDgNii)
+
 
 ## Usage
 Max snowflake size with scale = 1
