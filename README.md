@@ -3,7 +3,7 @@ Snowfall animation with perlin noise wind effect
 
 This project was made using [p5.js](https://p5js.org/) framework
 
-### [Live demo](https://editor.p5js.org/N238635/present/NkJRDgNii)
+### [Live demo](https://lnickersl.github.io/p5.js-snowfall/)
 
 
 ## Usage
